@@ -61,11 +61,11 @@ function getUsersInEveryModule(firstModule, secondModule) {
                                             usedModules.push(secondKey);                            // the inner module is included
                                         }
                                     }
-                            } else if (usedModules.includes(firstKey) && checkModules) {            // if we just completed the inner array, we still need to add the user and outer module
-                                usersInEveryModule.push(firstUser);
-                                usedModules.push(firstKey);
-                                index = index + 1;
-                            }
+                    } else if (usedModules.includes(firstKey) && checkModules) {                    // if we just completed the inner array, we still need to add the user and outer module
+                        usersInEveryModule.push(firstUser);
+                        usedModules.push(firstKey);
+                        index = index + 1;
+                    }
                 });
         });
     });
