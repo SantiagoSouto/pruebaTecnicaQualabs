@@ -1,0 +1,62 @@
+{
+    "auth_module": {
+        "authn.provider_3": [
+            "input/u0.json",
+            "input/u11.json",
+            "input/u12.json",
+            "input/u15.json",
+            "input/u7.json"
+        ],
+        "authn.provider_2": [
+            "input/u1.json",
+            "input/u10.json",
+            "input/u13.json",
+            "input/u14.json",
+            "input/u16.json",
+            "input/u18.json",
+            "input/u6.json",
+            "input/u8.json"
+        ],
+        "authn.provider_1": [
+            "input/u17.json",
+            "input/u19.json",
+            "input/u3.json",
+            "input/u4.json"
+        ],
+        "authn.provider_4": [
+            "input/u2.json",
+            "input/u5.json",
+            "input/u9.json"
+        ]
+    },
+    "content_module": {
+        "authz.provider_4": [
+            "input/u0.json",
+            "input/u1.json",
+            "input/u12.json",
+            "input/u19.json",
+            "input/u6.json",
+            "input/u7.json"
+        ],
+        "authz.provider_3": [
+            "input/u10.json",
+            "input/u11.json",
+            "input/u18.json",
+            "input/u2.json",
+            "input/u3.json",
+            "input/u5.json"
+        ],
+        "authz.provider_2": [
+            "input/u13.json",
+            "input/u15.json",
+            "input/u16.json",
+            "input/u17.json",
+            "input/u8.json",
+            "input/u9.json"
+        ],
+        "authz.provider_1": [
+            "input/u14.json",
+            "input/u4.json"
+        ]
+    }
+}
